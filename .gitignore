@@ -1,3 +1,10 @@
+# Python
+*.pyc
+*.egg-info
+*.egg
+__pycache__
+
+# ROS
 build
 install
 .Trash-0
