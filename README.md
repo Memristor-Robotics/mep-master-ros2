@@ -4,6 +4,10 @@ The project aims to become a concept of proof for next generation MEP software. 
 Currently, the software is under heavy development and only a few features are implemented.
 
 ## Development Guidelines
+Clone repository and it's submodules
+`git clone --recurse-submodules https://github.com/Memristor-Robotics/mep-master-ros2.git`  
+or to update submodules use `git submodule update --init --recursive`
+
 ### Nodes
 Nodes are located in `src` directory. It is possible to run separated nodes, eg.:  
 `ros2 run boilerplate publisher`
